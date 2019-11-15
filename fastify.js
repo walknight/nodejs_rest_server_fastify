@@ -7,6 +7,7 @@ const fastify = require('fastify')({
 fastify.register(require('fastify-formbody'));
 
 //routes yang dipisah dari root file
+
 fastify.register(require('./routes'));
 
 const start = async () => {
